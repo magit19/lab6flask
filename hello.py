@@ -1,7 +1,6 @@
 from flask import Flask
 import random
 app = Flask(__name__)
-#a = random.random() * 100
 a=random.randint(1,99)
 @app.route('/')
 def hello_world():
